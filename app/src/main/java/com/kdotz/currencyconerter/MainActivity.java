@@ -1,4 +1,4 @@
-package com.example.kdotz.currencyconverter;
+package com.kdotz.currencyconerter;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

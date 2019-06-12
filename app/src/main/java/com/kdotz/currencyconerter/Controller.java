@@ -1,4 +1,4 @@
-package com.example.kdotz.currencyconverter;
+package com.kdotz.currencyconerter;
 
 import android.os.AsyncTask;
 import android.util.Log;
