@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!editText.getText().toString().equals("")) {
             NumberFormat formatter = new DecimalFormat("#,###.00");
-            new Controller().execute("https://free.currconv.com/api/v7/convert?apiKey=a3428ff50b35faa0658d&q=USD_" + sItems.getSelectedItem().toString() + "&compact=ultra").get();
+            new Controller().execute("https://free.currconv.com/api/v7/convert?apiKey=7390ab9a542be6318301&q=USD_" + sItems.getSelectedItem().toString() + "&compact=ultra").get();
             System.out.println(Controller.server_response);
             response = Controller.server_response;
             JSONObject jsonObject = new JSONObject(response);
